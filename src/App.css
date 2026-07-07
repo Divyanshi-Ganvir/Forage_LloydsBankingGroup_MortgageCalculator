@@ -1,0 +1,174 @@
+body {
+  font-style: "Times New Roman";
+}
+
+h1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  background-color: lightblue;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-top: -1rem;
+}
+
+.appExplanation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: -1rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.allContent {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  gap: 1.5rem; 
+}
+
+.inputsArea, .resultsArea {
+  flex: 1 1 20rem;
+}
+
+.inputsArea {
+  padding: 1rem;
+  height: auto;
+  border: 0.1rem solid black;
+  border-radius: 1rem;
+}
+
+.inputsArea h3 {
+  margin-top: 0rem;
+} 
+
+.resultsArea {
+  height: auto;
+  flex-wrap: wrap;
+}
+
+/*
+.graph {
+  flex-wrap: wrap;
+  height: auto;
+  padding: 0.3rem;
+  background-color: lightblue;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.graph h2{
+  text-align: center;
+}
+*/
+
+.inputs {
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs label {
+  font-weight: bols;
+  margin-bottom: 6px;
+}
+
+.inputs input {
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  border: 0.05rem solid black;
+  border-radius: 0.5rem;
+}
+
+.inputs select{
+  padding: 0.5rem 0.5rem;
+  font-size: 1rem;
+  border: 0.05rem solid black;
+  border-radius: 0.5rem;
+}
+
+.inputs label{
+  font-weight: bold;
+}
+
+.buttons {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 1rem;
+}
+
+.buttons button {
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  background-color: lightblue;
+  color: black;
+  padding: 0.7rem;
+}
+
+.InterestRateSlider {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.InterestRateSlider input{
+  display: flex;
+  justify-content: center;
+  margin-left: 2%;
+  text-align: center;
+}
+
+.decisionButtons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.decisionButtons button{
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.5rem;
+  color: black;
+  padding: 0.7rem;
+  font-weight: bold;
+}
+
+.calculateButton {
+  text-align: center;
+  background-color: lightgreen;
+}
+
+.resultValues { 
+  flex-wrap: wrap;
+  height: auto;
+  padding: 1rem;
+  background-color: lightblue;
+  border-radius: 1rem;
+}
+
+.resultValues h2 {
+  text-align: center;
+  margin-top: 0rem;
+}
+
+.resultValues hr{
+  border: 0.5px solid black;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+}
+
+
