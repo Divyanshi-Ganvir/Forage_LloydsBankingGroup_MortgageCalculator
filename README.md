@@ -16,9 +16,9 @@
   - Total interest to be paid 
   - Loan to value (LTV) ratio percentage 
 
-**Deployment:** divyanshimortgagecalculator.netlify.app
+### **Deployment:** divyanshimortgagecalculator.netlify.app
 
-**Technology stack:**
+### **Technology stack:**
 - React
 - HTML
 - CSS
