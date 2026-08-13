@@ -5,7 +5,8 @@
 #### **Status:** Complete
 
 ### Project Description: 
-- Developed and tested a web application for a refined version of Lloyds Banking Group’s existing mortgage calculator from scratch based on received customer feedback for improvements. 
+- Developed and tested a web application for a refined version of Lloyds Banking Group’s existing mortgage calculator from scratch based on received customer feedback for improvements.
+
 **- Supports two mortgage types:**
   - Fixed rate mortgage
   - Interest only mortgage
